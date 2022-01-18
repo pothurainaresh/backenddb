@@ -125,6 +125,18 @@
 				<artifactId>junit</artifactId>
 				<version>4.8.1</version>
 			</plugin>
+			<plugin>
+				<groupId>org.owasp</groupId>
+				<artifactId>dependencey-check-maven </artifactId>
+				<version>6.5.3</version>
+				<executions>
+				<execution>
+				<goals>
+				<goal>check</goal>
+				</goals>
+				</execution>
+				</executions>
+			</plugin>
 		</plugins>
 	</build>
 	<reporting>
